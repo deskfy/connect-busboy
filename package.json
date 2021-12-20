@@ -1,4 +1,5 @@
-{ "name": "deskfy-connect-busboy",
+{
+  "name": "@deskfy/deskfy-connect-busboy",
   "version": "0.0.2",
   "author": "Brian White <mscdex@mscdex.net>",
   "description": "Connect middleware for busboy",
@@ -6,8 +7,36 @@
   "dependencies": {
     "busboy": "0.3.1"
   },
-  "engines": { "node": ">=0.8.0" },
-  "keywords": [ "connect", "middleware", "uploads", "forms", "multipart", "form-data" ],
-  "licenses": [ { "type": "MIT", "url": "http://github.com/mscdex/connect-busboy/raw/master/LICENSE" } ],
-  "repository" : { "type": "git", "url": "http://github.com/mscdex/connect-busboy.git" }
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "keywords": [
+    "connect",
+    "middleware",
+    "uploads",
+    "forms",
+    "multipart",
+    "form-data"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/mscdex/connect-busboy/raw/master/LICENSE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/deskfy/connect-busboy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mscdex/connect-busboy/issues"
+  },
+  "homepage": "https://github.com/mscdex/connect-busboy#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  }
 }
